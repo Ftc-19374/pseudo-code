@@ -27,9 +27,9 @@ public class blankshinyfile {
             // Add telemetry data of how far we're moving (just in case)
             // Set button values
             //if a button is pressed:
-            //    move down 100 ticks
+            //    move down 100 ticks (by using movingvoid)
             //if b button is pressed:
-            //    move up 100 ticks
+            //    move up 100 ticks (by using movingvoid)
         }
     }
     
