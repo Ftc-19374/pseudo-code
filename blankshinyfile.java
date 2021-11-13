@@ -11,7 +11,6 @@ on user input from controller 1, with the a and b buttons being pressed, althoug
 public class blankshinyfile {
     /*
     set variables of tick number of a gobilda 5202/5203 motor (it's in here because we need to know how far we can move with a rotation.)
-    set encoder #
     create cascading lift motor (it's the only one)
     create button variables
     find how much a robot will move in a rotation
