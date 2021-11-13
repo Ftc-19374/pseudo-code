@@ -26,15 +26,25 @@ public class blankshinyfile {
             // Add telemetry data of how far we're moving (just in case)
             // Set button values based on input from controller
             //if a button is pressed:
-            //    movingvoid(Distance: -100 ticks, Speed: 0.5. Timeout: 5)
+            //    call movingvoid -100 ticks
             //if b button is pressed:
-            //    movingvoid(Distance: 100 ticks, Speed: 0.5, Timeout: 5)
+            //    call movingvoid 100 ticks
         }
     }
     
-    public void movingvoid(double Distance, double Speed, double Timeout){
+    public void movingvoid(){
         /*
-        complex calculations (you shouldn't need to edit this, as it will be used in all programs and pretested. If the problem comes down to this, you can edit this.)
-        */
+        make sure opmode is active
+        find current position and add distance to move
+        set target position of motor
+        run to that position
+        
+        make sure that power is not negative (abs)
+        
+        stop all motors
+        
+        set to run using encoders
+        
+        wait a quarter second (for accuracy, so that the program doesn't make the robot move in an unwanted direction)
     }
 } //reset encoder values.
