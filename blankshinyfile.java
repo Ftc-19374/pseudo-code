@@ -13,7 +13,7 @@ public class blankshinyfile {
     set variables of tick number of a gobilda 5202/5203 motor (it's in here because we need to know how far we can move with a rotation.)
     create cascading lift motor (it's the only one)
     create button variables
-    find how much a robot will move in a rotation
+    find how much cascading lift will move in a rotation(ticks)
     */
     
     @Override
@@ -22,7 +22,7 @@ public class blankshinyfile {
         //set to run using encoders
         waitForStart();
         while(opModeIsActive()){
-            // Add telemetry data of how far we're moving (just in case)
+            // Add telemetry data of how far it's moving
             // Set button values based on input from controller
             //if a button is pressed:
             //    call movingvoid -100 ticks
